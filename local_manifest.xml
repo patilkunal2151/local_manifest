@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote  name="sus"
+         fetch="https://github.com/SKetU-l" />
+
+<!-- Device Cum -->
+
+   <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="sus" revision="thirteen"/>
+   <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="sus" revision="main" />
+   <project path="vendor/asus/X00TD" name="vendor_asus_X00TD" remote="sus" revision="main"/>
+
+</manifest>
