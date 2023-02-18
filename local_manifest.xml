@@ -9,9 +9,9 @@
 
 <!-- Device Cum -->
 
-   <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="sus" revision="thirteen"/>
-   <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="sus" revision="main" />
-   <project path="vendor/asus/X00TD" name="vendor_asus_X00TD" remote="sus" revision="main"/>
+   <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="sus" revision="thirteen" clone-depth="1" />
+   <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="sus" revision="main" clone-depth="1" />
+   <project path="vendor/asus/X00TD" name="vendor_asus_X00TD" remote="sus" revision="main" clone-depth="1" />
 
 <!-- Clang the shit --->
 
