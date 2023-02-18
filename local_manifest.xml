@@ -4,10 +4,17 @@
 <remote  name="sus"
          fetch="https://github.com/SKetU-l" />
 
+<remote  name="clang"
+         fetch="https://gitlab.com/Amritorock" />
+
 <!-- Device Cum -->
 
    <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="sus" revision="thirteen"/>
    <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="sus" revision="main" />
    <project path="vendor/asus/X00TD" name="vendor_asus_X00TD" remote="sus" revision="main"/>
+
+<!-- Clang the shit --->
+
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
