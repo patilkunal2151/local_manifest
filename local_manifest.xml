@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="sus"
-        fetch="https://github.com/SKetU-l" />
+<remote name="sus" fetch="https://github.com/SKetU-l" />
+        
 
-<remote name="clang"
-        fetch="https://gitlab.com/Amritorock" />
+<remote name="clang" fetch="https://gitlab.com/Amritorock" />
+        
 
-<remote name="pero"
-        fetch="https://github.com/asus-sdm660-devs" />
+<remote name="pero" fetch="https://github.com/asus-sdm660-devs" />
+        
          
 <!-- Device Cum -->
 
