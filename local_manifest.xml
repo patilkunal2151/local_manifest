@@ -2,14 +2,11 @@
 <manifest>
 
 <remote name="sus" fetch="https://github.com/SKetU-l" />
-        
 
 <remote name="clang" fetch="https://gitlab.com/Amritorock" />
-        
 
 <remote name="pero" fetch="https://github.com/asus-sdm660-devs" />
-        
-         
+
 <!-- Device Cum -->
 
    <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="sus" revision="xtendied" clone-depth="1" />
