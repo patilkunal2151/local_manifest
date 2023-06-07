@@ -7,11 +7,10 @@
            <remote name="clang"
            fetch="https://gitlab.com/Amritorock" />
 
-           <remote name="pero" 
-           fetch="https://github.com/asus-sdm660-devs" />
-
-   <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="sus" revision="xtendied" clone-depth="1" />
-   <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="sus" revision="main" clone-depth="1" />
-   <project path="vendor/asus" name="proprietary_vendor_asus" remote="pero" revision="lineage-19.1" clone-depth="1" />
+           <remote name="kernul"
+           fetch="https://github.com/RyuujiX"
+   <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="sus" clone-depth="1" />
+   <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="sus" revision="r7/hmp" clone-depth="1" />
+   <project path="vendor/asus/X00TD" name="proprietary_vendor_asus" remote="sus" clone-depth="1" />
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
