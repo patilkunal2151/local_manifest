@@ -8,7 +8,8 @@
            fetch="https://gitlab.com/Amritorock" />
 
            <remote name="kernul"
-           fetch="https://github.com/RyuujiX"
+           fetch="https://github.com/RyuujiX" />
+
    <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="sus" clone-depth="1" />
    <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="sus" revision="r7/hmp" clone-depth="1" />
    <project path="vendor/asus/X00TD" name="android_vendor_asus_X00TD" remote="sus" clone-depth="1" />
