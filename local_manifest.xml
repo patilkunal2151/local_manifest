@@ -7,7 +7,7 @@
 
     <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-4.19" remote="sketu" revision="main" recursive="true" />
 
-    <project path="vendor/asus" name="vendor_asus-4.19" remote="sketu" revision="main" clone-depth="1" />
+    <project path="vendor/asus" name="vendor_asus-4.19" remote="sketu" revision="thirteen" clone-depth="1" />
 
     <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-4.19" remote="sketu" revision="thirteen" clone-depth="1" />
 
