@@ -3,8 +3,13 @@
 
     <remote name="kunal" fetch="https://github.com/patilkunal2151" />
     
-    <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="kunal" revision="fourteen" />
+<!--     <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="kunal" revision="fourteen" />
     <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-4.19" remote="kunal" revision="fourteen" />
-    <project path="vendor/asus" name="vendor_asus-4.19" remote="kunal" revision="fourteen" />
+    <project path="vendor/asus" name="vendor_asus-4.19" remote="kunal" revision="fourteen" /> -->
+
+
+    <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="kunal" revision="lineage-19.1" />
+    <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="kunal" revision="lineage-19.1" />
+    <project path="vendor/asus" name="proprietary_vendor_asus" remote="kunal" revision="lineage-19.1" />
 
 </manifest>
