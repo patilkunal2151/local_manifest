@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="Kunal" fetch="https://github.com/patilkunal2151" />
+    <remote name="kunal" fetch="https://github.com/patilkunal2151" />
     
-    <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="Kunal" revision="15.0" />
-    <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-4.19" remote="Kunal" revision="15.0" />
-    <project path="vendor/asus" name="vendor_asus-4.19" remote="Kunal" revision="15.0" />
-    <project path="kernel/asus/sdm660" name="kernel_asus-4.19" remote="Kunal" revision="master" />
+    <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="kunal" revision="15.0" />
+    <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-4.19" remote="kunal" revision="15.0" />
+    <project path="vendor/asus" name="vendor_asus-4.19" remote="kunal" revision="15.0" />
+    <project path="kernel/asus/sdm660" name="kernel_asus-4.19" remote="kunal" revision="master" />
 
 </manifest>
